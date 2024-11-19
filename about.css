@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+}
+    #top{
+    width:1410px;
+    height:500px;
+    background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/d8/0d/0b/the-gym-maui.jpg?w=1200&h=-1&s=1");
+    border:10px solid black;
+}
+
+h1{
+    width: 150px;
+    border: 3px solid black;
+    background-color:yellow;
+    padding: 20px;
+    box-shadow: 10px 10px 10px grey;
+    margin:auto;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: "Oswald", sans-serif;
+  
+}
+
+#content{
+    font-family: "Roboto", sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+   display: flex;
+
+   text-align: center;
+}
+#heading span a{
+    width:200px;
+    height:200px;
+    color:white;
+    text-decoration: none;
+    /* background-color: brown; */
+    margin-top: 40px;
+    padding: 60px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

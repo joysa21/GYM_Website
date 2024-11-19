@@ -1,0 +1,73 @@
+body{
+    background-image: url("https://www.shutterstock.com/image-photo/sporty-young-girl-sportswear-showing-260nw-614336183.jpg");
+     background-size: cover;
+
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+#heading span a{
+    text-decoration: none;
+    width:200px;
+    height:200px;
+    color:white;
+    /* background-color: brown; */
+    margin-top: 40px;
+    padding: 60px;
+    font-size: 20px;
+   
+
+}
+
+#tagline h1{
+    margin-left: 1000px;
+    color:white;
+     font-family: "Oswald", sans-serif;
+     font-size: 100px;
+     margin-top:0;
+
+}
+
+#tagline h2{
+    color:yellow;
+     font-family: "Oswald", sans-serif;
+     font-size: 80px;
+     margin-left: 1000px;
+}
+/* 
+#button{
+    background-color: rgb(245, 248, 61);
+    width:100px;
+    height:100px;
+} */
+#button #join a{
+    border:2px solid rgb(255, 255, 255) ;
+    border-radius: 10px;
+    background-color: rgb(192, 195, 24);
+    width:80px;
+    height:20px;
+    padding:15px;
+    margin-left: 1000px;
+    font-size: 30px;
+    font-weight: 400;
+    color:white;
+    text-decoration: none;
+    /* font-family: "Oswald", sans-serif; */
+}
+
+#button #about a{
+    border:2px solid rgb(255, 255, 255) ;
+    border-radius: 10px;
+    background-color: rgba(168, 164, 164, 0.475);
+    color:white;
+    width:80px;
+    height:20px;
+    padding:15px;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: 400;
+   text-decoration: none;
+}

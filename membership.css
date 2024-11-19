@@ -1,0 +1,105 @@
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+    background-image: url("https://parcfitness.com.au/wp-content/uploads/2023/07/parc-coach-1024x683.jpg");
+    opacity: 0.9;
+    background-size: cover;
+
+}
+
+
+#membership-plans {
+    margin-top: 150px;
+    text-align: center;
+    padding: 40px 20px;
+    /* background-color: #fff; */
+    /* background-image: url("https://parcfitness.com.au/wp-content/uploads/2023/07/parc-coach-1024x683.jpg"); */
+}
+
+#membership-plans h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color:yellow;
+  
+   
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #ff5722;
+}
+
+.card .price {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.card ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.card ul li {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+
+.card button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #ff5722;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card button:hover {
+    background-color: #e64a19;
+}
+
+#heading span a{
+    width:200px;
+    height:200px;
+    color:white;
+   text-decoration: none;
+    margin-top: 40px;
+    padding: 60px;
+    font-size: 20px;
+   font-weight: bold;
+
+}
